@@ -15,7 +15,7 @@ public class CMain {
 			attemptedPasses = 1;
 
 		double a = ((completions / attemptedPasses) - .3) * 5;
-		double b = ((totalYards / attemptedPasses) - .3) * .25;
+		double b = ((totalYards / attemptedPasses) - 3) * .25;
 		double c = (touchdowns / attemptedPasses) * 20;
 		double d = 2.375 - ((interceptions / attemptedPasses) * 25);
 
